@@ -1,0 +1,12 @@
+.card .card-body .card-text {
+  /* height: 200px;
+  max-height: 200px;*/
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+#movies .col {
+  margin-bottom: 1rem;
+}
