@@ -1,0 +1,32 @@
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+h1 {
+  color: #f6511d;
+}
+.card {
+  border-color: #aaa;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  .card-body {
+    background-color: #000;
+    border-top: solid 1px #aaa;
+    .card-title {
+      color: #f6511d;
+    }
+    .card-text {
+      color: #aaa;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
+#movies {
+  .col {
+    margin-bottom: 1rem;
+  }
+}

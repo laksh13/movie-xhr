@@ -1,6 +1,30 @@
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  color: #f6511d;
+}
+
+.card {
+  border-color: #aaa;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card .card-body {
+  background-color: #000;
+  border-top: solid 1px #aaa;
+}
+
+.card .card-body .card-title {
+  color: #f6511d;
+}
+
 .card .card-body .card-text {
-  /* height: 200px;
-  max-height: 200px;*/
+  color: #aaa;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -10,3 +34,4 @@
 #movies .col {
   margin-bottom: 1rem;
 }
+/*# sourceMappingURL=index.css.map */
